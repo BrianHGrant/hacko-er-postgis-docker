@@ -1,0 +1,5 @@
+# ignores the sql dump file
+**/fire_db_2010.sql
+
+# ignores the secrets file
+/bin/secrets.sh
