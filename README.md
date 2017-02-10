@@ -6,7 +6,7 @@ This repo can be used to spin up a docker container for the PostGIS database use
 
 Fork and clone repo locally
 
-Due to file size the sql dumpfile will need to be downloaded  [fire_db_2010](https://drive.google.com/file/d/0B7k-dMOX1R5WOWpTZDdhMFBMUW8/view?usp=sharing).  
+Due to file size the sql dumpfile will need to be downloaded  [here](https://drive.google.com/file/d/0B7k-dMOX1R5WOWpTZDdhMFBMUW8/view?usp=sharing).  
 
 Save the file to the root directory of this repo and rename with a .sql extension:  
 
@@ -28,6 +28,6 @@ Use secrets-template file to create a secrets file:
 
 Next just build docker image:  
 
-    $ docker build -t ho-emergency .
+    $ docker build -t ho_emergency_db .
 
 Image will be built locally and able to be used in project
