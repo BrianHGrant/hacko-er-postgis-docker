@@ -7,6 +7,7 @@ export PGUSER="$POSTGRES_USER"
 
 # Create the 'template_postgis' template db
 "${psql[@]}" <<- 'EOSQL'
+ALTER SYSTEM SET max_wal_size = 128;
 CREATE DATABASE template_postgis;
 UPDATE pg_database SET datistemplate = TRUE WHERE datname = 'template_postgis';
 EOSQL

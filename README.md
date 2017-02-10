@@ -1,8 +1,8 @@
 # Hack Oregon Emergency Response PostGIS Docker Image
 
-This repo can be used to spin up a docker container for the PostGIS database used by the Hack Oregon 2017 Emergency Response team.
+This is source code for docker image available [here](https://hub.docker.com/r/brianhgrant/ho-emergency_db/) and can be used to build the docker container for the PostGIS database used by the Hack Oregon 2017 Emergency Response team.
 
-## Setup
+## To Build
 
 Fork and clone repo locally
 
